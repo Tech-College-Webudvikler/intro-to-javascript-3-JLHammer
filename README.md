@@ -44,4 +44,5 @@ Du skal i denne opgave bygge et lille terninge spil, der går ud på at gætte o
 
   **Bonus**:
   Hvis du når at blive færdig kan du se om du kan finde en måde at vise en terning til brugerem med det tilsvarende antal øjne til brugerens "slag".
+
 # Javascript_intro_3
