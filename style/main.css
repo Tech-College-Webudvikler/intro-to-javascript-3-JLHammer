@@ -22,6 +22,12 @@ body {
   padding: 16px;
   border-radius: 8px;
   box-shadow: 1px 2px 3px rgba(33, 33, 33, 0.5);
+  overflow: auto;
+  resize: both;
+  min-width: 400px;
+  max-width: 50%;
+  min-height: fit-content;
+  max-height: 40vh;
 }
 
 form {
@@ -44,7 +50,7 @@ input:focus {
   border: solid 2px rgba(33, 33, 33, 0.6);
 }
 
-input[type='submit'],
+input[type="submit"],
 #clickCount {
   width: 50%;
   margin: auto;
@@ -58,7 +64,7 @@ input[type='submit'],
   cursor: pointer;
 }
 
-input[type='submit']:hover,
+input[type="submit"]:hover,
 #clickCount:hover {
   background-color: rgba(233, 233, 233);
   color: black;
